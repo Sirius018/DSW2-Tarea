@@ -18,7 +18,7 @@ public class Client {
 			System.out.println("------------- 1 Iniciando Comunicación ---------------");
 			System.out.println("Inet Address : " + clientSocket.getInetAddress());
 			
-			File fileOrigen = new File("D:/cliente/Java-Logo.png");
+			File fileOrigen = new File("C:/2023-2/DSW2/Clase02/MASS.jpg");
 			FileInputStream fis = new FileInputStream(fileOrigen);
 			DataOutputStream salida = new DataOutputStream(clientSocket.getOutputStream());
 			
